@@ -1,6 +1,6 @@
-# DeFiNest
+# DeFiYield
 
-**DeFiNest** is an AI-powered DeFi yield aggregator that intelligently optimizes yield farming and staking across multiple protocols. Built with **Clarity smart contracts** on the Stacks blockchain, DeFiNest automates portfolio rebalancing, performs real-time risk assessments, and optimizes gas fees — helping users maximize returns while reducing complexity and risk.
+**DeFiYield** is an AI-powered DeFi yield aggregator that intelligently optimizes yield farming and staking across multiple protocols. Built with **Clarity smart contracts** on the Stacks blockchain, DeFiNest automates portfolio rebalancing, performs real-time risk assessments, and optimizes gas fees — helping users maximize returns while reducing complexity and risk.
 
 ---
 
