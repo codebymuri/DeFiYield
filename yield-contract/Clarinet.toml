@@ -1,16 +1,19 @@
 [project]
-name = 'yield-contract'
-description = ''
+name = "yield-contract"
 authors = []
+description = ""
 telemetry = true
-cache_dir = '.\.cache'
 requirements = []
-[contracts.Yield-pool-management]
-path = 'contracts/Yield-pool-management.clar'
-clarity_version = 3
-epoch = 3.0
+[contracts.yield-pool]
+path = "contracts/yield-pool.clar"
+depends_on = []
+
+[repl]
+costs_version = 2
+parser_version = 2
+
 [repl.analysis]
-passes = ['check_checker']
+passes = ["check_checker"]
 
 [repl.analysis.check_checker]
 strict = false
