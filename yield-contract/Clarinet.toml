@@ -1,21 +1,19 @@
 [project]
-name = 'yield-contract'
-description = ''
+name = "yield-contract"
 authors = []
+description = ""
 telemetry = true
-cache_dir = '.cache'
 requirements = []
-[contracts.rebalancing-manager]
-path = 'contracts/rebalancing-manager.clar'
-clarity_version = 3
-epoch = 3.0
+[contracts.Deposit]
+path = "contracts/Deposit.clar"
+depends_on = []
 
-[contracts.yield-pool]
-path = 'contracts/yield-pool.clar'
-clarity_version = 1
-epoch = 2.05
+[repl]
+costs_version = 2
+parser_version = 2
+
 [repl.analysis]
-passes = ['check_checker']
+passes = ["check_checker"]
 
 [repl.analysis.check_checker]
 strict = false
